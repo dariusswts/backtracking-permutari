@@ -1,0 +1,57 @@
+#ifndef TEMA1_H_INCLUDED
+#define TEMA1_H_INCLUDED
+#include <iostream>
+using namespace std;
+
+
+int n, x[20];
+
+bool valid1(int k)
+{
+    for(int i=1;i<k;i++){
+        if(x[i]==x[k]){
+            return false;
+        }
+    }
+
+    if(k==1 && x[k]%2==0){
+        return false;
+    }
+
+    if(k==n && x[k]%2!=0){
+        return false;
+    }
+
+    return true;
+}
+
+void afisare1()
+{
+    for(int i=1;i<=n;i++){
+        cout<<x[i]<<" ";
+    }
+    cout<<endl;
+}
+
+void back1(int k)
+{
+    for(int v=1;v<=n;v++){
+        x[k]=v;
+        if(valid1(k)){
+            if(k==n){
+                afisare1();
+            }
+            else{
+                back1(k+1);
+            }
+        }
+    }
+}
+
+void permutariImparPar()
+{
+    cin>>n;
+    back1(1);
+}
+
+#endif // TEMA1_H_INCLUDED
