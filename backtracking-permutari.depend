@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1794329378 source:c:\mycode\backtracking-permutari\main.cpp
+	<iostream>
+	"permutari-vecini.h"
+
+1794327498 c:\mycode\backtracking-permutari\permutari-clasic.h
+	<iostream>
+
+1794328155 c:\mycode\backtracking-permutari\permutari-pozitii.h
+	<iostream>
+
+1794329701 c:\mycode\backtracking-permutari\permutari-vecini.h
+	<iostream>
+

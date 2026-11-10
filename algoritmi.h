@@ -5,6 +5,11 @@
 
 using namespace std;
 
+
+
+
+
+
 //  datele comune: in headerele tale, ele stau in solutie.h
 int n, m, s, t, a[20], x[20];
 char l[20];
