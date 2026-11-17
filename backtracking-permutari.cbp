@@ -32,7 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="algoritmi.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="permutari-anagrame.h" />
+		<Unit filename="permutari-clasic.h" />
+		<Unit filename="permutari-multime.h" />
+		<Unit filename="permutari-pozitii.h" />
+		<Unit filename="permutari-vecini.h" />
 		<Unit filename="tema1.h" />
 		<Unit filename="tema10.h" />
 		<Unit filename="tema11.h" />

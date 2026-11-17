@@ -18,7 +18,7 @@ bool valid(int k)
     }
 
     if(k==1 && a[x[k]]==a[1]){
-        // Nu verificăm maximul aici.
+
     }
 
     if(k==n){
